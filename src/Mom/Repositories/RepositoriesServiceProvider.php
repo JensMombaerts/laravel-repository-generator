@@ -33,7 +33,7 @@ class RepositoriesServiceProvider extends ServiceProvider {
             $repositoryInterface = $expl[0];
 
             if(file_exists(app_path() .'/Repositories/Eloquent/Eloquent'.$repositoryInterface.'.php')) {
-                $this->app->bind($namespace.'\\Repositories\\'.$repositoryInterface, $namespace.'\\Repositories\\Eloquent\\Eloquent'.$repositoryInterface);
+                $this->app->bind($namespace.'Repositories\\'.$repositoryInterface, $namespace.'Repositories\\Eloquent\\Eloquent'.$repositoryInterface);
             }
         }
     }

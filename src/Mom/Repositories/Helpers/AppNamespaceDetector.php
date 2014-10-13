@@ -11,7 +11,7 @@ class AppNamespaceDetector {
             if (app_path() == realpath(base_path().'/'.$path)) return $namespace;
         }
 
-        return 'App';
+        return 'App\\';
     }
 
 } 
