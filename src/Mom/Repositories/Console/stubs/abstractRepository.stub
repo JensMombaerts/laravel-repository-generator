@@ -1,4 +1,4 @@
-<?php namespace {{ namespace }}\Repositories\{{ type }};
+<?php namespace {{ namespace }}Repositories\{{ type }};
 
 use \Mom\Repositories\Repositories\AbstractRepository;
 
