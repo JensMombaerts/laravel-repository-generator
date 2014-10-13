@@ -1,0 +1,22 @@
+{
+    "name": "mom/repositories",
+    "description": "Repository generation for Laravel",
+    "authors": [
+        {
+            "name": "Jens Mombaerts",
+            "email": "jensmombaerts@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "illuminate/filesystem": "4.2.*",
+        "mustache/mustache": "~2.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mom\\Repositories": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

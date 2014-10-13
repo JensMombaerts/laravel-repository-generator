@@ -1,0 +1,7 @@
+<?php namespace {{ namespace }}\Repositories\{{ type }};
+
+use \Mom\Repositories\Repositories\AbstractRepository;
+
+abstract class Abstract{{ type }}Repository extends AbstractRepository {
+
+}

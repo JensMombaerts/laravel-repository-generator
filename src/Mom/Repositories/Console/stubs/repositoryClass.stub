@@ -1,0 +1,9 @@
+<?php namespace {{ namespace }}\Repositories\{{ type }};
+
+use {{ namespace }}\Repositories\{{ repository}}Repository;
+
+class {{ type }}{{ repository }}Repository extends Abstract{{ type }}Repository implements {{ repository }}Repository {
+
+    {{ attributes }}
+
+}
