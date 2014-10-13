@@ -1,6 +1,6 @@
 <?php namespace {{ namespace }}Repositories;
 
-use \Mom\Repositories\Repositories\Repository;
+use Mom\Repositories\Repositories\Repository;
 
 interface {{ repository }}Repository extends Repository {
 
