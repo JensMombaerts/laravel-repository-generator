@@ -2,6 +2,6 @@
 
 use Mom\Repositories\Repositories\AbstractRepository;
 
-abstract class Abstract{{ type }}Repository extends AbstractRepository {
+abstract class Abstract{{ type }}Repository {
 
 }

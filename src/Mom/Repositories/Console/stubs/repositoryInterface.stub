@@ -2,6 +2,6 @@
 
 use Mom\Repositories\Repositories\Repository;
 
-interface {{ repository }}Repository extends Repository {
+interface {{ repository }}Repository {
 
 }
